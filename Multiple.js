@@ -1,0 +1,23 @@
+import './ABCD'
+import './DCBA'
+import './EFGH'
+import './IJKL'
+import './LKJI'
+import './MNOP'
+import './MNOP'
+import './RST'
+import './TSR'
+import './UVW'
+import './WVU'
+import './XYZ'
+import './ZYX'
+void function Multiply(){
+    let M = 'ABCDDCBA'
+    let u = 'EFGHHGEF'
+    let l1 = 'IJKLLKJI'
+    let t = 'MNOPPONM'
+    let p = 'RSTUUTSR'
+    let l2 = 'UVWWUV'
+    let e = 'XYZZYX'
+    return [M,u,l1,t,p,l2,e]
+}
